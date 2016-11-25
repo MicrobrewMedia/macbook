@@ -2,7 +2,7 @@
 
 export MACBOOK="${HOME}/.macbook"
 export MACBOOK_LOG="${HOME}/Library/Logs/macbook.log"
-export GITHUB_USER="jodybrewster"
+export GITHUB_USER="microbrewmedia"
 
 # If missing, download and extract the macbook repository
 if [[ ! -d "${MACBOOK}" ]]; then
