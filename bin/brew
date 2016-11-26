@@ -44,6 +44,25 @@ run_brew() {
 	brew install python --universal --framework
 	brew install nginx
 	brew install redis
+	brew install autojump
+	brew install xz
+	brew install automake
+	brew install colordiff
+	brew install libpng
+	brew install freetype
+	brew install git
+	brew install git-flow
+	brew install hub
+	brew install icoutils
+	brew install libtool
+	brew install jpeg
+	brew install libtiff
+	brew install imagemagick
+	brew install libevent
+	brew install memcached
+	brew install libmemcached
+	brew install libxml2
+	brew install mas
 
 	#tmux
 	brew install tmux
@@ -56,13 +75,6 @@ run_brew() {
 
 	#ios
 	brew install xctool
-
-	#android
-	brew install ant
-	brew install maven
-	brew install gradle
-	brew install android-sdk
-	brew install android-ndk
 
 	# Remove outdated versions from the cellar
 	brew cleanup
