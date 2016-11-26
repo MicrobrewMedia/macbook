@@ -68,6 +68,8 @@ run_brew() {
 	brew install mas
 	brew install sonos
 	brew install spotify
+	brew install sublime-text
+	
 
 	#tmux
 	brew install tmux
