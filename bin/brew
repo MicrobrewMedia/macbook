@@ -57,12 +57,17 @@ run_brew() {
 	brew install libtool
 	brew install jpeg
 	brew install libtiff
+	brew cask install inkscape
+	brew install librsvg
+	brew install imagemagick --with-librsvg
 	brew install imagemagick
 	brew install libevent
 	brew install memcached
 	brew install libmemcached
 	brew install libxml2
 	brew install mas
+	brew install sonos
+	brew install spotify
 
 	#tmux
 	brew install tmux
