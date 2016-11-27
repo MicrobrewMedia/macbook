@@ -49,7 +49,7 @@ run_apps() {
 	brew cask install transmit
 	brew cask install gas-mask
 	brew cask install textexpander
-	brew cask vagrant-manager
+	brew cask install vagrant-manager
 	brew cask install teamviewer
 	brew cask install the-unarchiver
 	brew cask install transmission
