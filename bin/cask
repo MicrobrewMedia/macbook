@@ -10,7 +10,7 @@ run_apps() {
 	brew install gpg keybase gpg-agent
 	brew isntall tunnelblick
 
-	# browser
+	# Browsers
 	brew cask install firefox
 	brew cask install google-chrome
 	brew cask install google-chrome-canary
