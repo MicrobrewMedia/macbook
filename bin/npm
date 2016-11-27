@@ -30,6 +30,7 @@ run_npm() {
 	npm install cordova -g
 	npm install grunt -g
 	npm install gulp -g
+	npm install --global gulp-cli
 	npm install gulp-load-plugins -g
 	npm install ionic -g
 	npm install ios-deploy -g
