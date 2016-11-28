@@ -8,6 +8,7 @@ run_apps() {
 	## Security
 	brew cask install sidestep
 	brew install gpg keybase gpg-agent
+	brew cask install gpgtools
 	brew isntall tunnelblick
 
 	# Browsers
@@ -81,5 +82,7 @@ run_apps() {
 	brew install wp-cli
 	brew install chromedriver
 	gem install wbench
+	brew cask install numi
+
 	
 }
