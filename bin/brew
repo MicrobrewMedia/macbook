@@ -20,7 +20,7 @@ run_brew() {
 	brew install git-flow
 
 	brew install bash
-	brew install zsh
+	brew install zsh zsh-completions
 
 	brew install wget --enable-iri
 
@@ -55,21 +55,39 @@ run_brew() {
 	brew install hub
 	brew install icoutils
 	brew install libtool
+	# Image Optimizations
 	brew install jpeg
 	brew install libtiff
 	brew cask install inkscape
 	brew install librsvg
 	brew install imagemagick --with-librsvg
 	brew install imagemagick
+	brew cask install imagealpha
+	brew install advancecomp
+	brew cask install imageoptim
+	brew install pngquant
+	brew install pngcrush
+	brew install jonof/kenutils/pngout
+	brew install optipng
+	brew install ffmpeg
+	brew install graphicsmagick
+	
+	brew install heroku-toolbelt
+	
 	brew install libevent
 	brew install memcached
 	brew install libmemcached
 	brew install libxml2
 	brew install mas
-	brew install sonos
-	brew install spotify
-	brew install sublime-text
 	
+	# Development
+	echo Install Development tools
+	brew install nano
+	brew install subversion
+	
+	# Keyboard tweaks
+	brew install karabiner
+	brew install seil
 
 	#tmux
 	brew install tmux
@@ -79,6 +97,7 @@ run_brew() {
 	# docker 
 	brew install docker
 	brew install boot2docker
+	brew cask install docker-toolbox
 
 	#ios
 	brew install xctool
