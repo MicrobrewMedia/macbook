@@ -22,6 +22,8 @@ run_apps() {
 	brew cask install vscode
 	brew cask install intellij-idea-community-eap
 	brew cask install coda
+	brew cask install iterm2
+	brew cask install mou
 	
 	## Music + Media
 	brew cask install spotify
@@ -35,11 +37,8 @@ run_apps() {
 	brew cask install github-desktop
 	brew cask install transmission
 
-	brew cask install iterm2
-	brew cask install mou
-
+	## Adobe
 	brew cast install adobe-creative-cloud
-	brew cask install docker-toolbox
 
 	## Mac Tools + Productivity Helpers
 	brew cask install 1password
@@ -68,28 +67,19 @@ run_apps() {
 	brew cask install iterm2
 	brew cask install vagrant
 	brew cask install vagrant-manager
-	brew install httpie
 
-	# Image Optimizations
+	## Image Optimizations
 	brew cask install imagealpha
-	brew install advancecomp
 	brew cask install imageoptim
-	brew install pngquant
-	brew install pngcrush
-	brew install jonof/kenutils/pngout
-	brew install optipng
-	brew install ffmpeg
-	brew install imagemagick
-	brew install graphicsmagick
 	
-	# Development
-	echo Install Development tools
-	brew install nano
-	brew install subversion
-	
-	# Keyboard tweaks
-	brew install karabiner
-	brew install seil
-
+	## Development tools
+	brew install ack
+	brew install hub
+	brew install sass
+	brew install heroku-toolbelt
+	brew install composer
+	brew install wp-cli
+	brew install chromedriver
+	gem install wbench
 	
 }
