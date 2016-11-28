@@ -94,9 +94,9 @@ if type_exists 'rbenv'; then
     run_ruby
 else
     printf "\n"
-    e_error "Error: rbenv not found."
-    printf "Aborting...\n"
-    exit
+    e_error "rbenv not found."
+    brew install rbenv
+    run_ruby
 fi
 
 
